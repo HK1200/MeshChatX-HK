@@ -1,5 +1,5 @@
 Reticulum MeshChatX - Third-party notices
-Generated at: 2026-10-03T23:16:11.889831Z
+Generated at: 2026-11-02T06:31:21.367924Z
 Frontend source: pnpm
 
 Python dependencies
@@ -7,7 +7,7 @@ Python dependencies
 aiohappyeyeballs 2.7.1
   License: PSF-2.0
   Author: J. Nick Koston
-aiohttp 3.14.3
+aiohttp 3.14.5
   License: Apache-2.0 AND MIT
   Author: -
 aiohttp-session 2.12.1
@@ -37,7 +37,7 @@ bleak 3.0.2
 cborx 0.2.5
   License: 0BSD
   Author: Quad4
-certifi 2026.7.22
+certifi 2026.10.19
   License: MPL-2.0
   Author: Kenneth Reitz
 cffi 2.1.1
@@ -67,6 +67,12 @@ idna 3.20
 landlockpy 0.2.0
   License: 0BSD
   Author: Quad4
+libogg 1.3.6
+  License: BSD-3-Clause
+  Author: Xiph.Org Foundation
+libopusfile 0.12
+  License: BSD-3-Clause
+  Author: Xiph.Org Foundation
 lxmf 1.2.0
   License: Reticulum License
   Author: Mark Qvist
@@ -112,7 +118,7 @@ pyserial 3.5
 reticulum-meshchatx 4.10.7+hk.1.0.4
   License: 0BSD AND MIT
   Author: Quad4
-rns 1.5.6
+rns 1.5.7
   License: Reticulum License
   Author: Mark Qvist
 rns-filesync 1.0.0
@@ -427,16 +433,16 @@ Node dependencies
 @humanwhocodes/retry 0.4.3
   License: Apache-2.0
   Author: Nicholas C. Zaks
-@intlify/core-base 11.4.10
+@intlify/core-base 11.4.16
   License: MIT
   Author: kazuya kawaguchi
-@intlify/devtools-types 11.4.10
+@intlify/devtools-types 11.4.16
   License: MIT
   Author: kazuya kawaguchi
-@intlify/message-compiler 11.4.10
+@intlify/message-compiler 11.4.16
   License: MIT
   Author: kazuya kawaguchi
-@intlify/shared 11.4.10
+@intlify/shared 11.4.16
   License: MIT
   Author: kazuya kawaguchi
 @isaacs/cliui 8.0.2
@@ -547,7 +553,7 @@ Node dependencies
 @opentelemetry/instrumentation-kafkajs 0.12.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
-@opentelemetry/instrumentation-knex 0.48.0
+@opentelemetry/instrumentation-knex 0.65.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
 @opentelemetry/instrumentation-koa 0.51.0
@@ -559,22 +565,22 @@ Node dependencies
 @opentelemetry/instrumentation-mongodb 0.56.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
-@opentelemetry/instrumentation-mongoose 0.50.0
+@opentelemetry/instrumentation-mongoose 0.67.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
-@opentelemetry/instrumentation-mysql 0.49.0
+@opentelemetry/instrumentation-mysql 0.67.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
-@opentelemetry/instrumentation-mysql2 0.49.0
+@opentelemetry/instrumentation-mysql2 0.67.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
-@opentelemetry/instrumentation-pg 0.55.0
+@opentelemetry/instrumentation-pg 0.73.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
 @opentelemetry/instrumentation-redis 0.51.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
-@opentelemetry/instrumentation-tedious 0.22.0
+@opentelemetry/instrumentation-tedious 0.40.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
 @opentelemetry/instrumentation-undici 0.14.0
@@ -595,13 +601,13 @@ Node dependencies
 @opentelemetry/semantic-conventions 1.28.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
-@opentelemetry/sql-common 0.41.2
+@opentelemetry/sql-common 0.42.0
   License: Apache-2.0
   Author: OpenTelemetry Authors
 @oxc-parser/binding-linux-x64-gnu 0.147.0
   License: MIT
   Author: Boshen and oxc contributors
-@oxc-project/types 0.144.0
+@oxc-project/types 0.147.0
   License: MIT
   Author: Boshen and oxc contributors
 @oxc-resolver/binding-linux-x64-gnu 11.24.2
@@ -649,10 +655,10 @@ Node dependencies
 @puppeteer/browsers 3.0.6
   License: Apache-2.0
   Author: The Chromium Authors
-@rolldown/binding-linux-x64-gnu 1.2.4
+@rolldown/binding-linux-x64-gnu 1.2.15
   License: MIT
   Author: -
-@rolldown/pluginutils 1.0.0
+@rolldown/pluginutils 1.0.1
   License: MIT
   Author: -
 @sec-ant/readable-stream 0.4.1
@@ -742,10 +748,10 @@ Node dependencies
 @types/node 0.0.0
   License: MIT
   Author: -
-@types/pg 8.6.1
+@types/pg 8.15.4
   License: MIT
   Author: -
-@types/pg-pool 2.0.6
+@types/pg-pool 2.0.7
   License: MIT
   Author: -
 @types/rbush 4.0.0
@@ -895,8 +901,8 @@ ansis 4.3.1
 app-builder-lib 26.15.3
   License: MIT
   Author: Vladimir Krivosheev
-argparse 2.0.1
-  License: Python-2.0
+argparse 3.0.4
+  License: PSF-2.0
   Author: -
 argue-cli 3.1.0
   License: MIT
@@ -961,7 +967,7 @@ boolbase 1.0.0
 boolean 3.2.0
   License: MIT
   Author: -
-brace-expansion 1.1.18
+brace-expansion 1.1.21
   License: MIT
   Author: -
 braces 3.0.3
@@ -1177,7 +1183,7 @@ dir-compare 4.2.0
 dmg-builder 26.15.3
   License: MIT
   Author: Vladimir Krivosheev
-dompurify 3.4.14
+dompurify 3.4.17
   License: (MPL-2.0 OR Apache-2.0)
   Author: Dr.-Ing. Mario Heiderich, Cure53
 dot-prop 9.0.0
@@ -1207,7 +1213,7 @@ editorconfig 3.0.2
 ejs 6.0.1
   License: Apache-2.0
   Author: Matthew Eernisse
-electron 44.5.1
+electron 44.9.1
   License: MIT
   Author: Electron Community
 electron-builder 26.15.3
@@ -1360,7 +1366,7 @@ fast-json-stable-stringify 2.1.0
 fast-levenshtein 2.0.6
   License: MIT
   Author: Ramesh Nair
-fast-uri 4.1.4
+fast-uri 4.2.3
   License: BSD-3-Clause
   Author: Vincent Le Goff
 fd-package-json 2.0.0
@@ -1513,7 +1519,7 @@ html-encoding-sniffer 6.0.0
 html-escaper 2.0.0
   License: MIT
   Author: Andrea Giammarchi
-http-cache-semantics 4.1.1
+http-cache-semantics 4.3.0
   License: BSD-2-Clause
   Author: Kornel Lesiński
 http-link-header 1.1.4
@@ -1564,7 +1570,7 @@ internal-slot 1.1.0
 intl-messageformat 10.7.18
   License: BSD-3-Clause
   Author: Eric Ferraiuolo
-ip-address 10.3.1
+ip-address 10.7.5
   License: MIT
   Author: Beau Gunderson
 is-array-buffer 3.0.5
@@ -1711,7 +1717,7 @@ js-library-detector 6.7.0
 js-tokens 4.0.0
   License: MIT
   Author: Simon Lydell
-js-yaml 5.2.2
+js-yaml 5.5.0
   License: MIT
   Author: Vladimir Zapparov
 jsdom 30.0.1
@@ -1765,7 +1771,7 @@ kolorist 1.8.0
 lazy-val 1.0.5
   License: MIT
   Author: Vladimir Krivosheev
-legacy-javascript 0.0.1
+legacy-javascript 0.0.4
   License: Apache-2.0
   Author: Google LLC
 lerc 3.0.0
@@ -2116,7 +2122,7 @@ possible-typed-array-names 1.0.0
 postcss 8.5.23
   License: MIT
   Author: Andrey Sitnik
-postcss-selector-parser 7.1.5
+postcss-selector-parser 7.1.7
   License: MIT
   Author: -
 postgres-array 2.0.0
@@ -2251,7 +2257,7 @@ roarr 2.15.4
 robots-parser 3.0.1
   License: MIT
   Author: Sam Clarke
-rolldown 1.2.4
+rolldown 1.2.15
   License: MIT
   Author: -
 run-applescript 7.1.0
@@ -2344,7 +2350,7 @@ sirv 3.0.2
 smart-buffer 4.2.0
   License: MIT
   Author: Josh Glazebrook
-smol-toml 1.8.0
+smol-toml 1.9.1
   License: BSD-3-Clause
   Author: Cynthia Rey
 socks 2.8.0
@@ -2356,7 +2362,7 @@ socks-proxy-agent 8.0.3
 source-map 0.6.1
   License: BSD-3-Clause
   Author: Nick Fitzgerald
-source-map-js 1.0.2
+source-map-js 1.2.2
   License: BSD-3-Clause
   Author: Valentin 7rulnik Semirulnik
 source-map-support 0.5.21
@@ -2533,7 +2539,7 @@ unbash 4.0.10
 unbox-primitive 1.1.0
   License: MIT
   Author: Jordan Harband
-undici 7.29.0
+undici 7.30.1
   License: MIT
   Author: -
 undici-types 7.18.2
@@ -2581,7 +2587,7 @@ vis-network 10.1.2
 vis-util 6.0.2
   License: (Apache-2.0 OR MIT)
   Author: Alex de Mulder
-vite 8.2.2
+vite 8.3.5
   License: MIT
   Author: Evan You
 vite-dev-rpc 2.0.0
@@ -2614,7 +2620,7 @@ vue-component-type-helpers 3.3.11
 vue-eslint-parser 10.4.1
   License: MIT
   Author: Toru Nagashima
-vue-i18n 11.4.10
+vue-i18n 11.4.16
   License: MIT
   Author: kazuya kawaguchi
 vue-router 4.6.4
@@ -2731,7 +2737,7 @@ yocto-queue 0.1.0
 zarrita 0.7.1
   License: MIT
   Author: -
-zod 3.24.1
+zod 4.6.7
   License: MIT
   Author: Colin McDonnell
 zstddec 0.2.0

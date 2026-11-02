@@ -15,7 +15,15 @@ apk add --no-cache --upgrade \
     'libcurl-openssl4>=8.23.0-r0' \
     'libbrotlicommon1>=1.2.0-r7' \
     'libbrotlidec1>=1.2.0-r7' \
-    'libbrotlienc1>=1.2.0-r7'
+    'libbrotlienc1>=1.2.0-r7' \
+    'py3-pip-wheel>=26.2.2-r2' \
+    'py3.14-pip>=26.2.2-r2' \
+    'py3.14-pip-base>=26.2.2-r2' \
+    'uv>=0.13.6-r1' \
+    'python-3.14>=3.14.10_git20261028-r0' \
+    'python-3.14-base>=3.14.10_git20261028-r0' \
+    'python-3.14-base-dev>=3.14.10_git20261028-r0' \
+    'python-3.14-dev>=3.14.10_git20261028-r0'
 apk add --no-cache opus libffi shadow libseccomp
 
 groupadd -g 1000 meshchat

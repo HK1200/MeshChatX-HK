@@ -2,5 +2,5 @@
   "version": "1.0.0",
   "wasm": "sha384-MCuCmtDCDOWHJXMkddL2nWunQGUutKf9fiqL1y30y98/fneJ6gMqJibzbjGaGYEf",
   "wasmExec": "sha384-PfGeEcr9Xuv41kJc81dgnXe6i1CorXb2JfA0qLxhxqd3/za7JqDklFKWqtto+x0V",
-  "wasmExecSource": "TinyGo 0.42.0 targets/wasm_exec.js"
+  "wasmExecSource": "/media/haadkoe/MeshchatNextWork/Meshchat-neXt/work/next-tools/tinygo/targets/wasm_exec.js"
 }

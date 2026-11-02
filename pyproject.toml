@@ -55,6 +55,7 @@ Homepage = "https://github.com/Quad4-Software/MeshChatX"
 
 [tool.uv]
 constraint-dependencies = [
+  "filelock>=4.2.1",
   "h2>=4.4.1",
   "numpy>=2.4.6,<2.5; python_version < '3.12'",
   "numpy>=2.5.3,<2.6; python_version >= '3.12'",
