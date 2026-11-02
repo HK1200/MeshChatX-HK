@@ -7,7 +7,7 @@
     },
     {
         "name": "aiohttp",
-        "version": "3.14.3",
+        "version": "3.14.5",
         "author": "-",
         "license": "Apache-2.0 AND MIT"
     },
@@ -20,7 +20,7 @@
     {
         "name": "aioquic",
         "version": "1.3.0",
-        "author": "Jeremy Lainé <jeremy.laine@m4x.org>",
+        "author": "Jeremy Lain\u00e9 <jeremy.laine@m4x.org>",
         "license": "BSD-3-Clause"
     },
     {
@@ -32,7 +32,7 @@
     {
         "name": "anyio",
         "version": "4.15.1",
-        "author": "Alex Grönholm <alex.gronholm@nextday.fi>",
+        "author": "Alex Gr\u00f6nholm <alex.gronholm@nextday.fi>",
         "license": "MIT"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
         "name": "certifi",
-        "version": "2026.7.22",
+        "version": "2026.10.19",
         "author": "Kenneth Reitz",
         "license": "MPL-2.0"
     },
@@ -124,6 +124,18 @@
         "version": "0.2.0",
         "author": "Quad4",
         "license": "0BSD"
+    },
+    {
+        "name": "libogg",
+        "version": "1.3.6",
+        "author": "Xiph.Org Foundation",
+        "license": "BSD-3-Clause"
+    },
+    {
+        "name": "libopusfile",
+        "version": "0.12",
+        "author": "Xiph.Org Foundation",
+        "license": "BSD-3-Clause"
     },
     {
         "name": "lxmf",
@@ -194,7 +206,7 @@
     {
         "name": "pylsqpack",
         "version": "0.3.24",
-        "author": "Jeremy Lainé <jeremy.laine@m4x.org>",
+        "author": "Jeremy Lain\u00e9 <jeremy.laine@m4x.org>",
         "license": "BSD-3-Clause"
     },
     {
@@ -217,7 +229,7 @@
     },
     {
         "name": "rns",
-        "version": "1.5.6",
+        "version": "1.5.7",
         "author": "Mark Qvist",
         "license": "Reticulum License"
     },
@@ -242,7 +254,7 @@
     {
         "name": "typing_extensions",
         "version": "4.16.0",
-        "author": "\"Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee\" <levkivskyi@gmail.com>",
+        "author": "\"Guido van Rossum, Jukka Lehtosalo, \u0141ukasz Langa, Michael Lee\" <levkivskyi@gmail.com>",
         "license": "PSF-2.0"
     },
     {
@@ -262,17 +274,5 @@
         "version": "1.25.1",
         "author": "Andrew Svetlov",
         "license": "Apache-2.0"
-    },
-    {
-        "name": "libogg",
-        "version": "1.3.6",
-        "author": "Xiph.Org Foundation",
-        "license": "BSD-3-Clause"
-    },
-    {
-        "name": "libopusfile",
-        "version": "0.12",
-        "author": "Xiph.Org Foundation",
-        "license": "BSD-3-Clause"
     }
 ]

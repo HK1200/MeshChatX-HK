@@ -1,5 +1,8 @@
 ## 4.10.7-HK-1.0.4
 
+- Update Android certificate trust bundles and the packaged Python runtime to address the compromised eMudhra certificate authorities.
+
+- Refresh the bundled HTML sanitizer, localization and build dependencies to patched versions; enforce fixed package floors in hardened container images.
 - Keep Add contact in the header on phones so it cannot cover the last contact's controls.
 - Renaming a contact updates only records belonging to the same identity, rather than unrelated people with the same name. Stop remaining rename writes when the active identity changes.
 - HK remains Reticulum-only; SIP and MeshCore improvements are part of the separate neXt release.
