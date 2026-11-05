@@ -2,6 +2,8 @@
 
 ## Unreleased desktop maintenance
 
+- Build Linux freezer bases from lock-pinned source with the selected Python patch and verify the actual frozen interpreter in an isolated probe.
+
 - Dispatch frozen multiprocessing workers before importing the application, and exercise an actual synthetic LXMF validation task in packaged runtime checks.
 
 - Scope orphan-backend cleanup to verified same-user, same-executable and same-profile Linux orphans. Fail closed on other platforms, and use fully synthetic process fixtures in tests so a running desktop profile cannot be terminated.
