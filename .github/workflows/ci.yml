@@ -430,7 +430,8 @@ jobs:
 
     mutation-changed:
         name: Mutation (changed backend modules, advisory)
-        if: github.event_name == 'pull_request'
+        # Owner excludes automatic PR mutation execution; definitions and limits remain intact.
+        if: ${{ false }}
         runs-on: ubuntu-latest
         timeout-minutes: 120
         continue-on-error: true
