@@ -1,5 +1,13 @@
 ## 4.10.7-HK-1.0.4
 
+## Unreleased desktop maintenance
+
+- Build Linux freezer bases from lock-pinned source with the selected Python patch and verify the actual frozen interpreter in an isolated probe.
+
+- Dispatch frozen multiprocessing workers before importing the application, and exercise an actual synthetic LXMF validation task in packaged runtime checks.
+
+- Scope orphan-backend cleanup to verified same-user, same-executable and same-profile Linux orphans. Fail closed on other platforms, and use fully synthetic process fixtures in tests so a running desktop profile cannot be terminated.
+
 - Update Android certificate trust bundles and the packaged Python runtime to address the compromised eMudhra certificate authorities.
 
 - Refresh the bundled HTML sanitizer, localization and build dependencies to patched versions; enforce fixed package floors in hardened container images.

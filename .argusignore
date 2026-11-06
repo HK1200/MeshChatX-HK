@@ -71,3 +71,9 @@ AST-GO-001 scripts/license_scope_mapper.go
 # a temporary directory and an injected list.append in place of a shell.
 # Reviewed identically in neXt; no user-provided executable content is accepted.
 AST-PY-005 tests/test_android_wheel_soname_links.py
+
+# Host-safety regression loads only the fixed, checked-in cleanup module in a
+# bounded VM with fake filesystem, process enumeration and signals. No user or
+# network content is evaluated; unexpected imports throw. Runtime scanning and
+# the high-severity gate stay enabled. Direct require caused real host kills.
+JS-008 tests/electron/backendProcessOrphans.test.js

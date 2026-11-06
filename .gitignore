@@ -216,3 +216,7 @@ tests/ui/baseline.json
 
 # Local toolchain downloads (TinyGo, etc.)
 .tools/
+
+# Generated interpreter-build and isolated runtime verification reports.
+/reports/freezer-source.json
+/reports/frozen-python-*.json
