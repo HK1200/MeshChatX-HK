@@ -220,3 +220,19 @@ def test_collect_backend_licenses_falls_back_to_embedded_when_live_empty():
         mock_sys.frozen = False
         rows = collect_backend_licenses()
     assert rows == embedded
+
+
+def test_render_preserves_existing_native_and_expat_supplemental_notices(tmp_path):
+    data = tmp_path / "meshchatx/src/backend/data"
+    data.mkdir(parents=True)
+    original_native = "Existing NumPy, Ogg and Opus copyright notices"
+    expat = "Expat and CPython security backport copyright notices"
+    (data / "ANDROID_NATIVE_NOTICES.txt").write_text(original_native)
+    (data / "ANDROID_EXPAT_NOTICES.txt").write_text(expat)
+    with patch(
+        "meshchatx.src.backend.licenses_collector._repo_root", return_value=tmp_path
+    ):
+        rendered = render_third_party_notices({"backend": [], "frontend": []})
+    assert original_native in rendered
+    assert expat in rendered
+    assert rendered.index(original_native) < rendered.index(expat)

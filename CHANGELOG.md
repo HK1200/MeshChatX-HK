@@ -2,6 +2,9 @@
 
 ## Unreleased desktop maintenance
 
+- Use source-pinned desktop Python runtimes with Expat 2.10.0 security fixes, including the official CPython backport on Windows, and check the actual parser in frozen builds.
+- Backport Expat 2.10.0 into the Android parser while retaining the vendor Python kernel; verify the exact parser bytes in packaged APKs.
+
 - Build Linux freezer bases from lock-pinned source with the selected Python patch and verify the actual frozen interpreter in an isolated probe.
 
 - Dispatch frozen multiprocessing workers before importing the application, and exercise an actual synthetic LXMF validation task in packaged runtime checks.
