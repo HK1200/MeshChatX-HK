@@ -273,6 +273,10 @@ jobs:
                   python3 scripts/android/provision-ogg.py
                   python3 scripts/android/provision-opusfile.py
 
+            - name: Build checksum-pinned Expat security backport
+              shell: bash
+              run: python scripts/android/provision-expat.py --abis arm64-v8a,x86_64
+
             - name: Build Android wheels
               run: bash scripts/build-android-wheels-local.sh --python-minor "${PYTHON_VERSION}" --chaquopy-ref "${CHAQUOPY_REF}" --abis arm64-v8a,x86_64,armeabi-v7a
 
