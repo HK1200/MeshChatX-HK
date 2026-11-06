@@ -138,6 +138,7 @@ jobs:
         timeout-minutes: 120
         permissions:
             contents: read
+            actions: read
         env:
             FRONTEND_ARTIFACT_NAME: ${{ needs.frontend.outputs.artifact_name }}
             MESHCHATX_FRONTEND_PREBUILT: "1"
@@ -156,6 +157,7 @@ jobs:
               uses: ./.github/actions/setup-python-uv
               with:
                   python-version: ${{ env.PYTHON_VERSION }}
+                  security-runtime: "true"
                   uv-version: ${{ env.UV_VERSION }}
 
             - name: Set up Node and pnpm
@@ -208,6 +210,7 @@ jobs:
         timeout-minutes: 90
         permissions:
             contents: read
+            actions: read
         env:
             FRONTEND_ARTIFACT_NAME: ${{ needs.frontend.outputs.artifact_name }}
             MESHCHATX_FRONTEND_PREBUILT: "1"
@@ -247,6 +250,7 @@ jobs:
               uses: ./.github/actions/setup-dev-environment
               with:
                   python-version: ${{ env.PYTHON_VERSION }}
+                  security-runtime: "true"
                   uv-version: ${{ env.UV_VERSION }}
                   node-version: ${{ env.NODE_VERSION }}
                   pnpm-version: ${{ env.PNPM_VERSION }}

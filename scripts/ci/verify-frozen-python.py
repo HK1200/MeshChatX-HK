@@ -263,10 +263,18 @@ def main():
                 raise RuntimeError(
                     {"expected": args.expected_python, "actual_frozen_python": actual}
                 )
+            if info.get("expat_version") != "expat_2.10.0":
+                raise RuntimeError(
+                    {
+                        "actual_frozen_expat": info.get("expat_version"),
+                        "expected": "expat_2.10.0",
+                    }
+                )
             report = {
                 "passed": True,
                 "expected_python": args.expected_python,
                 "actual_frozen_python": actual,
+                "actual_frozen_expat": info["expat_version"],
                 "source": info.get("git_commit"),
                 "private_network_and_devices": True,
                 "private_user_namespace": True,
